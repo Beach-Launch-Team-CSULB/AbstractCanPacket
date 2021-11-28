@@ -3,6 +3,7 @@
     fierywaters13@gmail.com
     Designed for CSULB Beach Launch Team
 */
+/*
 #include <Arduino.h>
 #include <Streaming.h>
 #include "AbstractedCanPacket.h"
@@ -162,9 +163,11 @@ void loop()
 	Rather than make a new AbstractCanPacket each time, simply reset them
 	so they can be reused without additional memory use. UNTESTED
 	*/
+/*
 	incomingCanPacket.reset();
 	abstractCanPacket.reset();
 
 	while (true)
 		delay(1000); //disable loop
 }
+*/
