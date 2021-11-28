@@ -1,0 +1,4 @@
+When either nodeID or priority are zero, the packet fails to transfer. 
+The error is "ERROR, ID 0 is reserved as NULL ID" which is a 
+MiniPacket error. Not sure why this is failing but fixing it is not a priority
+right now

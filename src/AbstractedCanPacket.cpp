@@ -8,10 +8,7 @@
 
 void AbstractedCanPacket::init()
 {
-    //Configure priority and nodeID in header file
-
-    packetBufferSize = 0;
-    usedBits = 0;
+    reset();
 }
 AbstractedCanPacket::AbstractedCanPacket()
 {
